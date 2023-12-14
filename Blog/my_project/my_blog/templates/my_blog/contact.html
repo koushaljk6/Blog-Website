@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+About Us
+{% endblock %}
+
+{% block css_files %}
+  <link rel="stylesheet" href="{% static "my_blog/index.css" %}" />
+  <link rel="stylesheet" href="{% static "my_blog/contact.css" %}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% endblock %}
+{% block content %}0
+<div class="wrap">
+    <div class="content">
+        <section id="latest-posts">
+            <h2 class="contact-h1">About Us</h2>
+            <!-- LinkedIn Icon -->
+            <div class="text-box">
+                <a href="https://www.linkedin.com/in/koushal-kumar-abaa26156/" class="fa fa-linkedin"></a>
+                <p class="contact-text">
+                    <h2> LinkedIn Profile</h2>
+                </p>
+            </div>
+
+            <!-- GitHub Icon -->
+            <div class="text-box">
+                <a href="https://github.com/koushaljk6" class="fa fa-github"></a>
+                <p class="contact-text">
+                    <h2> GitHub Profile</h2>
+                </p>
+            </div>
+
+            <!-- Gmail Icon -->
+            <div class="text-box">
+                <a href="mailto:koushaljk691@gmail.com" class="fa fa-envelope"></a>
+                <p class="contact-text">
+                    <h2> koushaljk691@gmail.com</h2>
+                </p>
+            </div>
+
+<!-- Remove the text-box for other icons -->
+<!-- ... -->
+
+
+<!-- Remove the text-box for other icons -->
+<!-- ... -->
+
+<!--            &lt;!&ndash; Update the icons and links &ndash;&gt;-->
+<!--            <div class="text-box">-->
+<!--                <a href="https://www.linkedin.com/in/koushal-kumar-abaa26156/" class="fa fa-linkedin"></a>-->
+<!--                <p class="contact-text">-->
+<!--                    <h2> www.linkedin.com/in/koushal-kumar-abaa26156/</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+
+<!--            <div class="text-box">-->
+<!--                <a href="https://github.com/koushaljk6" class="fa fa-github"></a>-->
+<!--                <p class="contact-text">-->
+<!--                    <h2> https://github.com/koushaljk6</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+
+<!--            <div class="text-box">-->
+<!--                <a href="mailto:koushaljk691@gmail.com" class="fa fa-envelope"></a>-->
+<!--                <p class="contact-text">-->
+<!--                    <h2> koushaljk691@gmail.com</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+
+
+<!-- Remove the text-box for Facebook -->
+<!-- <div class="text-box">
+    <a href="https://github.com/koushaljk6" class="fa fa-facebook"></a>
+    <p class="contact-text">
+        <h2> https://github.com/koushaljk6</h2>
+    </p>
+</div> -->
+
+
+<!--            <div class="text-box">-->
+<!--                <a href="https://www.youtube.com/@CSGeeksofficial" class="fa fa-youtube"></a>-->
+<!--                <p class="contact-text">-->
+<!--                  <h2> www.youtube.com/@CSGeeksofficial</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="text-box">-->
+<!--                <a href="https://www.instagram.com/csgeekss/" class="fa fa-instagram"></a>-->
+<!--                <p class="contact-text">-->
+<!--                  <h2>  www.instagram.com/csgeekss/</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="text-box">-->
+<!--                <a href="https://in.pinterest.com/Csgeeks/" class="fa fa-pinterest"></a>-->
+<!--                <p class="contact-text">-->
+<!--                  <h2>  pinterest.com/Csgeeks/</h2>-->
+<!--                </p>-->
+<!--            </div>-->
+        </section>
+    </div><!-- .content -->
+
+    <div class="sidebar">
+        <section id="welcome">
+            <header>
+              <img src="{% static "my_blog/img/profile.png" %}"/>
+              <h2>Contact Me</h2>
+            </header>
+            <p>Send All your Doubts/Queries Here</p>
+          </section>
+    </div><!-- .sidebar -->
+    <div class="clear"></div>
+</div><!-- .wrap -->
+{% endblock %}
+</body>
+</html>

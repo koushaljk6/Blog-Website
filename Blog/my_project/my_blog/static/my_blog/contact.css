@@ -1,0 +1,53 @@
+.fa {
+    width: 50px;
+    height: 50px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0.3s all ease-in-out;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+
+  }
+
+.fa:hover {
+  transform: rotate(-30deg) skew(25deg) translate(10px, -10px);
+  box-shadow: -20px 20px 30px rgba(0,0,0,0.5);
+}
+
+.fa-linkedin {
+  background-color: #0077B5; /* LinkedIn color */
+  color: white;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.fa-github {
+  background-color: #181717; /* GitHub color */
+  color: white;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.fa-envelope {
+  background-color: #D14836; /* Gmail color */
+  color: white;
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.contact-text {
+    padding-left:50px ;
+    color: #002fff;
+  }
+.contact-h1{
+    font-size: 30px;
+    padding-left:50px ;
+    color: #ffffff;
+    text-align: center;
+}
+.text-box {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
